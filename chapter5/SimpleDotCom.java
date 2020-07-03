@@ -1,7 +1,7 @@
 public class SimpleDotCom {
   int[] locationCells;
   int numberOfHits = 0;
-  public void setLocations(int[] locs) {
+  public void setLocationCells(int[] locs) {
     locationCells = locs;
   }
   public String checkYourSelf(String stringGuess) {

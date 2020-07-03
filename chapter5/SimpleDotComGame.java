@@ -1,11 +1,11 @@
 import jdk.internal.util.SystemProps;
 
-public class SimpleDotComeGame {
+public class SimpleDotComGame {
   public static void main(String[] args) {
     int numOfGuesses = 0;
     GameHelper helper = new GameHelper();
 
-    SimpleDotCome theDotCom = new SimpleDotCome();
+    SimpleDotCom theDotCom = new SimpleDotCom();
     //               类型转换，强制编译器以所设定的类型来处理
     int randomNum = (int)(Math.random() * 5);
 
